@@ -1,0 +1,10 @@
+=== Racket Tracking & Smoothing - Quality Report ===
+
+Total frames: 900
+Raw valid points: 674
+After interpolation: 786
+Interpolated frames: 112
+Coverage: 0.8733 (87.33%)
+Pass threshold: 0.7000 (70.00%)
+
+PASSED: True

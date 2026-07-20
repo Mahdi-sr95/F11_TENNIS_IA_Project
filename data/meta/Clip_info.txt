@@ -1,0 +1,25 @@
+IACV F11 - Tennis (Visual Analysis of Sport Events) [clip metadata]
+
+Team:
+- Mahdi Soltani Renani (11039818) - Mahdi.Soltani@Mail.Polimi.it
+- Emad Karimianshamsabadi (11018953) - Emad.Karimianshamsabadi@Mail.Polimi.it
+
+Clip file:
+- Filename: input_video.mp4
+- Duration: 00:00:15
+- Resolution: 1920x1080
+- Frame rate: 59.94 fps
+
+Source:
+- Original video name: Ben Shelton vs. Ignacio Buse Full Match - 2025 US Open Round 1.mp4
+- Source URL :https://www.youtube.com/watch?v=AfU5ZIPYvsM
+- Clip start time in original video (HH:MM:SS): 0:17:15
+- Clip end time in original video (HH:MM:SS): 0:17:30
+
+Scene notes:
+- Camera: single fixed camera, full court view (broadcast-like).
+- Main targets: ball + racket.
+
+Export notes:
+- Export tool: Shotcut
+- Export profile: HD 1080p 59.94 fps

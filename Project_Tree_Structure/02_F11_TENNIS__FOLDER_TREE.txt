@@ -1,0 +1,22 @@
+F11_TENNIS
++---.venv
+|   +---Include
+|   +---Lib
+|   \---Scripts
++---Model
++---code
++---data
+|   +---clips
+|   +---frames
+|   +---meta
+|   \---raw
++---report
++---results
+|   +---bounce_detection
+|   +---contact
+|   +---final
+|   +---intermediate
+|   |   +---ball
+|   |   \---court_calib
+|   \---racketpose
+\---slides

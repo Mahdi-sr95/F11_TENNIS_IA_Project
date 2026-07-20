@@ -1,0 +1,93 @@
+{
+  "total_contacts": 10,
+  "detection_method": "ground_truth",
+  "description": "Manually verified contact frames by visual inspection",
+  "note": "Each contact may span 1-2 frames during impact moment",
+  "contacts": [
+    {
+      "contact_id": 1,
+      "frames": [
+        105,
+        106
+      ],
+      "representative_frame": 105,
+      "duration_frames": 2
+    },
+    {
+      "contact_id": 2,
+      "frames": [
+        181
+      ],
+      "representative_frame": 181,
+      "duration_frames": 1
+    },
+    {
+      "contact_id": 3,
+      "frames": [
+        264,
+        265
+      ],
+      "representative_frame": 264,
+      "duration_frames": 2
+    },
+    {
+      "contact_id": 4,
+      "frames": [
+        344,
+        345
+      ],
+      "representative_frame": 344,
+      "duration_frames": 2
+    },
+    {
+      "contact_id": 5,
+      "frames": [
+        429,
+        430
+      ],
+      "representative_frame": 429,
+      "duration_frames": 2
+    },
+    {
+      "contact_id": 6,
+      "frames": [
+        511,
+        512
+      ],
+      "representative_frame": 511,
+      "duration_frames": 2
+    },
+    {
+      "contact_id": 7,
+      "frames": [
+        609
+      ],
+      "representative_frame": 609,
+      "duration_frames": 1
+    },
+    {
+      "contact_id": 8,
+      "frames": [
+        714
+      ],
+      "representative_frame": 714,
+      "duration_frames": 1
+    },
+    {
+      "contact_id": 9,
+      "frames": [
+        776
+      ],
+      "representative_frame": 776,
+      "duration_frames": 1
+    },
+    {
+      "contact_id": 10,
+      "frames": [
+        899
+      ],
+      "representative_frame": 899,
+      "duration_frames": 1
+    }
+  ]
+}

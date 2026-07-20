@@ -1,0 +1,170 @@
+{
+  "image_path": "data\\frames\\frame_000001.jpg",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "num_points": 19,
+  "points_image": {
+    "near_baseline_left": [
+      640,
+      244
+    ],
+    "near_baseline_right": [
+      1278,
+      243
+    ],
+    "near_singles_left": [
+      719,
+      245
+    ],
+    "near_singles_right": [
+      1197,
+      245
+    ],
+    "near_service_left": [
+      600,
+      325
+    ],
+    "near_service_right": [
+      1319,
+      320
+    ],
+    "near_service_center": [
+      959,
+      323
+    ],
+    "far_baseline_left": [
+      325,
+      852
+    ],
+    "far_baseline_right": [
+      1598,
+      848
+    ],
+    "far_singles_left": [
+      488,
+      850
+    ],
+    "far_singles_right": [
+      1436,
+      848
+    ],
+    "far_service_left": [
+      444,
+      623
+    ],
+    "far_service_right": [
+      1479,
+      621
+    ],
+    "far_service_center": [
+      961,
+      621
+    ],
+    "net_left": [
+      537,
+      441
+    ],
+    "net_singles_left": [
+      643,
+      446
+    ],
+    "net_center": [
+      961,
+      447
+    ],
+    "net_singles_right": [
+      1276,
+      444
+    ],
+    "net_right": [
+      1381,
+      442
+    ]
+  },
+  "points_world": {
+    "near_baseline_left": [
+      0.0,
+      0.0
+    ],
+    "near_baseline_right": [
+      10.97,
+      0.0
+    ],
+    "near_singles_left": [
+      1.37,
+      0.0
+    ],
+    "near_singles_right": [
+      9.600000000000001,
+      0.0
+    ],
+    "near_service_left": [
+      0.0,
+      6.4
+    ],
+    "near_service_right": [
+      10.97,
+      6.4
+    ],
+    "near_service_center": [
+      5.485,
+      6.4
+    ],
+    "far_baseline_left": [
+      0.0,
+      23.77
+    ],
+    "far_baseline_right": [
+      10.97,
+      23.77
+    ],
+    "far_singles_left": [
+      1.37,
+      23.77
+    ],
+    "far_singles_right": [
+      9.600000000000001,
+      23.77
+    ],
+    "far_service_left": [
+      0.0,
+      17.369999999999997
+    ],
+    "far_service_right": [
+      10.97,
+      17.369999999999997
+    ],
+    "far_service_center": [
+      5.485,
+      17.369999999999997
+    ],
+    "net_left": [
+      0.0,
+      11.885
+    ],
+    "net_singles_left": [
+      1.37,
+      11.885
+    ],
+    "net_center": [
+      5.485,
+      11.885
+    ],
+    "net_singles_right": [
+      9.600000000000001,
+      11.885
+    ],
+    "net_right": [
+      10.97,
+      11.885
+    ]
+  },
+  "court_dimensions": {
+    "length": 23.77,
+    "width_doubles": 10.97,
+    "width_singles": 8.23,
+    "service_line_distance": 6.4
+  }
+}

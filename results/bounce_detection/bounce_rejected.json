@@ -1,0 +1,47 @@
+{
+  "rejected_count": 2,
+  "rejected_candidates": [
+    {
+      "frame": 600,
+      "idx": 549,
+      "x": 575.8571428571433,
+      "y": 1037.2857142857151,
+      "confidence": 118.61904761904773,
+      "prominence": 919.8571428571436,
+      "velocity_change": 118.61904761904773,
+      "vel_before": 35.063492063492085,
+      "vel_after": -83.55555555555564,
+      "methods": [
+        "peak",
+        "velocity",
+        "window"
+      ],
+      "detection_count": 3,
+      "validation_status": "rejected",
+      "rejection_reasons": [
+        "out_of_court=2.8m"
+      ]
+    },
+    {
+      "frame": 777,
+      "idx": 726,
+      "x": 1173.0095238095246,
+      "y": 1035.4571428571437,
+      "confidence": 103.66825396825409,
+      "prominence": 838.9333333333341,
+      "velocity_change": 103.66825396825409,
+      "vel_before": 36.973015873015925,
+      "vel_after": -66.69523809523817,
+      "methods": [
+        "peak",
+        "velocity",
+        "window"
+      ],
+      "detection_count": 3,
+      "validation_status": "rejected",
+      "rejection_reasons": [
+        "out_of_court=2.8m"
+      ]
+    }
+  ]
+}

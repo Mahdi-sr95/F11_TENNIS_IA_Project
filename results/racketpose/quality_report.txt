@@ -1,0 +1,15 @@
+=== Racket Detection (2D) - Quality Report ===
+
+Project root: c:\Users\Ost\Desktop\F11_TENNIS
+Video path: c:\Users\Ost\Desktop\F11_TENNIS\data\clips\input_video.mp4
+Model path: c:\Users\Ost\Desktop\F11_TENNIS\Model\yolov8n.pt
+Inference size: 1280
+Multi-scale augment: True
+Confidence threshold: 0.1
+
+Total frames: 900
+Detected frames: 674
+Detection rate: 0.7489 (74.89%)
+Pass threshold: 0.7000 (70.00%)
+
+PASSED: True

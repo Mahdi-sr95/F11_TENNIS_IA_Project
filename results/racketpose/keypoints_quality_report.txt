@@ -1,0 +1,8 @@
+=== Racket Keypoints (2D) - Quality Report ===
+
+Total detected frames (from 9.1): 674
+Successful keypoint extraction: 674
+Success rate: 1.0000 (100.00%)
+Pass threshold: 0.7000 (70.00%)
+
+PASSED: True

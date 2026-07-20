@@ -1,0 +1,172 @@
+{
+  "total_points": 850,
+  "bounce_count": 9,
+  "rejected_count": 14,
+  "bounces": [
+    {
+      "frame": 64,
+      "x": 810.0,
+      "y": 567.0,
+      "method": "velocity",
+      "confidence": 270.1168831168827,
+      "velocity_change": 180.0779220779218,
+      "idx": 13,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 79,
+      "x": 1150.0,
+      "y": 750.0,
+      "method": "y_position",
+      "confidence": 1079.5129870129854,
+      "idx": 28,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 96,
+      "x": 1063.0,
+      "y": 673.0,
+      "method": "y_position",
+      "confidence": 355.38961038960986,
+      "idx": 45,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 119,
+      "x": 852.0,
+      "y": 622.0,
+      "method": "y_position",
+      "confidence": 308.2272727272722,
+      "idx": 68,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 263,
+      "x": 414.0,
+      "y": 748.0,
+      "method": "y_position",
+      "confidence": 1057.576298701297,
+      "idx": 212,
+      "methods": [
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 2,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 413,
+      "x": 626.0,
+      "y": 989.0,
+      "method": "y_position",
+      "confidence": 1285.7662337662318,
+      "idx": 362,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 447,
+      "x": 673.0,
+      "y": 616.0,
+      "method": "velocity",
+      "confidence": 78.62337662337654,
+      "velocity_change": 52.41558441558436,
+      "idx": 396,
+      "methods": [
+        "acceleration",
+        "velocity"
+      ],
+      "detection_count": 2,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 600,
+      "x": 587.0,
+      "y": 1001.0,
+      "method": "y_position",
+      "confidence": 1331.3068181818164,
+      "idx": 549,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    },
+    {
+      "frame": 777,
+      "x": 1170.0,
+      "y": 1008.0,
+      "method": "y_position",
+      "confidence": 1218.4727272727257,
+      "idx": 726,
+      "methods": [
+        "acceleration",
+        "velocity",
+        "y_position"
+      ],
+      "detection_count": 3,
+      "validation_status": "valid",
+      "tier": "high_confidence"
+    }
+  ],
+  "parameters": {
+    "min_prominence": 35,
+    "min_bounce_interval": 15,
+    "velocity_threshold": 8,
+    "acceleration_prominence": 25,
+    "merge_window_frames": 5,
+    "height_percentile_strict": 40,
+    "height_percentile_relaxed": 35,
+    "court_margin_m_strict": 1.5,
+    "court_margin_m_relaxed": 2.5,
+    "near_detection_window_strict": 3,
+    "near_detection_window_relaxed": 7,
+    "min_velocity_change": 25,
+    "high_confidence_threshold": 2
+  },
+  "validation": {
+    "homography_used": true,
+    "court_points_used": true,
+    "court_points_path": "C:\\Users\\Ost\\Desktop\\F11_TENNIS\\results\\intermediate\\court_calib\\court_points.json",
+    "validation_mode": "multi_tier"
+  }
+}

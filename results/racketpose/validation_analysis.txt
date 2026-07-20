@@ -1,0 +1,88 @@
+======================================================================
+RACKET 3D POSE VALIDATION ANALYSIS - PHASE 9.5
+======================================================================
+
+1. OVERALL STATISTICS
+----------------------------------------------------------------------
+Total frames: 900
+Valid 3D poses: 786 (87.33%)
+Invalid poses: 114 (12.67%)
+
+2. CONFIDENCE ANALYSIS
+----------------------------------------------------------------------
+Mean confidence: 0.9288
+Std deviation: 0.1748
+Min confidence: 0.5000
+Max confidence: 1.0000
+Low confidence frames (<0.7): 112
+
+3. POSITION OUTLIER ANALYSIS
+----------------------------------------------------------------------
+Valid poses: 786
+Out-of-bounds detections: 319
+
+Out-of-bounds frames (first 10):
+  Frame 143: Y = -9.07m
+  Frame 144: Y = -16.62m
+  Frame 145: Y = -18.03m
+  Frame 146: Y = -10.75m
+  Frame 147: Y = -10.34m
+  Frame 148: Y = -9.94m
+  Frame 149: Y = -9.59m
+  Frame 150: Y = -9.31m
+  Frame 151: Y = -8.99m
+  Frame 152: Y = -8.77m
+  ... and 309 more
+
+4. TEMPORAL GAP ANALYSIS
+----------------------------------------------------------------------
+Number of gaps: 6
+Max gap length: 34 frames
+
+Gaps (all):
+  Frames 171-181: 11 frames
+  Frames 185-216: 32 frames
+  Frames 219-231: 13 frames
+  Frames 256-267: 12 frames
+  Frames 315-326: 12 frames
+  Frames 626-659: 34 frames
+
+5. FAILURE CASES ANALYSIS
+----------------------------------------------------------------------
+Main causes of failure/invalid poses:
+
+a) Occlusion:
+   - Racket occluded by player body during backswing or follow-through
+   - Partial occlusion causing low confidence detections
+   - Estimated affected frames: 6 gaps
+
+b) Motion Blur:
+   - Fast racket movement during swing causes blur
+   - Affects keypoint detection accuracy
+   - Low confidence frames: 112
+
+c) Projection Errors:
+   - Homography-based projection assumes ground plane (Z=const)
+   - Does not account for racket height variation
+   - Out-of-bounds frames: 319
+
+d) Detection Failures:
+   - Upstream detection/tracking failures propagate to 3D pose
+   - Total invalid frames: 114
+
+6. RECOMMENDATIONS FOR IMPROVEMENT
+----------------------------------------------------------------------
+- Use multi-view geometry for true 3D reconstruction (not just homography)
+- Implement player segmentation to reduce occlusion effects
+- Add motion deblurring preprocessing for fast movements
+- Use temporal smoothing (Kalman filter) on 3D poses
+- Estimate racket height dynamically instead of assuming constant Z
+
+7. OVERALL QUALITY RATING
+----------------------------------------------------------------------
+Success rate: 87.33%
+Quality rating: EXCELLENT
+
+======================================================================
+END OF VALIDATION ANALYSIS
+======================================================================

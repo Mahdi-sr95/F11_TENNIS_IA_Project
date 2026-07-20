@@ -1,0 +1,61 @@
+{
+  "total_contacts": 9,
+  "detection_method": "bounce_event_correlation",
+  "description": "Contacts detected by correlating with bounce events",
+  "contacts": [
+    {
+      "contact_id": 1,
+      "frame": 55,
+      "velocity_change_magnitude": 210.93,
+      "next_bounce_frame": 64
+    },
+    {
+      "contact_id": 2,
+      "frame": 55,
+      "velocity_change_magnitude": 210.93,
+      "next_bounce_frame": 79
+    },
+    {
+      "contact_id": 3,
+      "frame": 90,
+      "velocity_change_magnitude": 45.12,
+      "next_bounce_frame": 96
+    },
+    {
+      "contact_id": 4,
+      "frame": 109,
+      "velocity_change_magnitude": 16.0,
+      "next_bounce_frame": 119
+    },
+    {
+      "contact_id": 5,
+      "frame": 169,
+      "velocity_change_magnitude": 46.97,
+      "next_bounce_frame": 263
+    },
+    {
+      "contact_id": 6,
+      "frame": 278,
+      "velocity_change_magnitude": 58.11,
+      "next_bounce_frame": 413
+    },
+    {
+      "contact_id": 7,
+      "frame": 438,
+      "velocity_change_magnitude": 49.25,
+      "next_bounce_frame": 447
+    },
+    {
+      "contact_id": 8,
+      "frame": 476,
+      "velocity_change_magnitude": 59.99,
+      "next_bounce_frame": 600
+    },
+    {
+      "contact_id": 9,
+      "frame": 770,
+      "velocity_change_magnitude": 36.97,
+      "next_bounce_frame": 777
+    }
+  ]
+}

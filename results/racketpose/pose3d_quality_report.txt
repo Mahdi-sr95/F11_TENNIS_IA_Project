@@ -1,0 +1,9 @@
+=== Racket 3D Pose Estimation - Quality Report ===
+
+Total frames: 900
+Trajectory valid frames: 786
+3D pose valid frames: 786
+Success rate: 1.0000 (100.00%)
+Pass threshold: 0.7000 (70.00%)
+
+PASSED: True

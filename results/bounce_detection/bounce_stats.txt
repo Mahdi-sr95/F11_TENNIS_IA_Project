@@ -1,0 +1,22 @@
+======================================================================
+BOUNCE DETECTION RESULTS - GROUND_TRUTH MODE
+======================================================================
+
+Total bounces: 9
+
+Bounce Events:
+----------------------------------------------------------------------
+ 1. Frame   64 - Position (   810,    567)
+ 2. Frame   79 - Position (  1150,    750)
+ 3. Frame   96 - Position (  1063,    673)
+ 4. Frame  119 - Position (   852,    622)
+ 5. Frame  263 - Position (   414,    748)
+ 6. Frame  413 - Position (   626,    989)
+ 7. Frame  447 - Position (   673,    616)
+ 8. Frame  600 - Position (   587,   1001)
+ 9. Frame  777 - Position (  1170,   1008)
+
+Interval Statistics:
+  Average: 89.1 frames
+  Min: 15 frames
+  Max: 177 frames
