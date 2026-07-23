@@ -1,4 +1,4 @@
-# IACV 2025-26 â€“ Project F11: Visual Analysis of Tennis Events
+# IACV 2025-26 “ Project F11: Visual Analysis of Tennis Events
 
 ## Team Members
 - Mahdi Soltani Renani (11039818)
