@@ -1,8 +1,8 @@
 # IACV 2025-26 â€“ Project F11: Visual Analysis of Tennis Events
 
 ## Team Members
--Mahdi Soltani Renani (11039818)
--Emad Karimianshamsabadi (11018953)
+- Mahdi Soltani Renani (11039818)
+- Emad Karimianshamsabadi (11018953)
 
 ## Project Overview
 This project addresses the challenge of automated ball trajectory estimation and bounce detection in tennis video footage. Using computer vision techniques, we developed a comprehensive pipeline that processes single-camera broadcast video to extract precise 3D ball positions, identify bounce events, and visualize results. The system combines classical methods with signal processing approaches to achieve robust performance on real-world video data.
